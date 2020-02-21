@@ -1,0 +1,47 @@
+* {
+	font-size : 12px;
+	font-family : Helvetica, sans-serif;
+}
+
+#submit {
+	border : 5px solid black;
+	border-radius : 5px;
+	text-shadow : 1px 1px;
+}
+
+form {
+	margin : 150px;
+}
+
+.container {
+	display : flex;
+}
+
+
+#last_name:hover, #website:hover, #first_name:hover, #mail:hover, #phone:hover, #birthdate:hover, #video_games:hover, #cinema:hover, #reading:hover, #sport:hover, #civility:hover, #submit:hover {
+	background-color: #b3ccff;
+}
+
+#man, #woman, #civility, #video_games, #cinema, #reading, #sport, #computer, #submit {
+	cursor : pointer;
+}
+
+h1 {
+	font-size : 25px;
+	width : 350px;
+	margin : auto;
+}
+
+.container:nth-of-type(3n+1) .field{
+	border : 2px dotted blue;
+}
+
+.container label {
+	width: 350px;
+}
+
+span {
+	font-family : "Lucida Console", sans-serif;
+	font-style : italic;
+}
+
